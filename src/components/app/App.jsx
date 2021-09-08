@@ -1,5 +1,6 @@
 import React from 'react';
+import ColorChanger from '../../containers/ColorChanger';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <ColorChanger color="#FF0000" />;
 }
