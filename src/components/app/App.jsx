@@ -1,6 +1,6 @@
 import React from 'react';
-import TileColor from '../display/TileColor';
+import ColorChanger from '../../containers/ColorChanger';
 
 export default function App() {
-  return <TileColor color="#FF0000" />;
+  return <ColorChanger color="#FF0000" />;
 }
